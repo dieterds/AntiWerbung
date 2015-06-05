@@ -5,7 +5,7 @@
 // @include     https://www.film.tv/film/*/trailer/*.html
 // @downloadURL https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiWerbung_fuer_Film.tv.user.js
 // @updateURL   https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiWerbung_fuer_Film.tv.user.js
-// @version     1.0
+// @version     1.1
 // @grant       none
 // ==/UserScript==
 if (jwp.config.playlist[1] != null)
