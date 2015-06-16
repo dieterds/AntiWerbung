@@ -10,6 +10,3 @@
 // ==/UserScript==
 console.log('AntiWerbung fuer N24 Mediathek startet');
 _n24VideoCfg.adEnabled = false;
-//_n24VideoCfg.flash.autoPlay = false;
-//n24VideoAutoStart = false;
-//delete myAd;

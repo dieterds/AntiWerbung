@@ -72,7 +72,7 @@ window.setTimeout(function () {
       //var viddi = document.getElementById('NVBPlayer' + videoID);
       var viddi = swfobject.getObjectById('NVBPlayer' + videoID);
       if (viddi != null)
-      viddi.data = 'http://video.golem.de/nvplayer/NonverBlaster-lgc.swf';
+        viddi.data = 'http://video.golem.de/nvplayer/NonverBlaster-lgc.swf';
     }
   }
 },

@@ -10,15 +10,6 @@
 // @grant       none
 // ==/UserScript==
 console.log('AntiWerbung fuer Winfuture.de startet');
-/*function injectClone(vaccine) {
-  var injected;
-  if (typeof cloneInto !== 'function') {
-    injected = vaccine;
-  } else {
-    injected = cloneInto(vaccine, unsafeWindow);
-  }
-  return injected;
-}*/
 var allElements,
   thisElement;
 var videoIDArray = [
@@ -32,10 +23,8 @@ for (var i = 0; i < allElements.length; i++) {
     if (videoIDArray.indexOf(videoID) == - 1) {
       console.log('Video id is: ' + videoID);
       videoIDArray[videoIDArray.length] = videoID;
-      //break;
     }
   }
-  // irgendetwas mit diesem Element tun
 
 }
 if (allElements.length == 0) {

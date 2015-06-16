@@ -13,10 +13,6 @@ console.log('AntiWerbung fuer Focus.de startet');
 //oHomad.uif = null;
 //delete oHomad.uif;
 
-
-
-//$('#playerswffwid1_api').children("param[name='flashvars']").attr('value');
-
 oHomad.url = "";
 delete oHomad.adframework;
 //oHomad.uif.preroll = "";
