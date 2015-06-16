@@ -26,7 +26,7 @@ window.setTimeout(function () {
     figgu = figgu.replace('homadglobal=http://homad-global-configs.schneevonmorgen.com/global_config.json&', '');
     figgu = figgu.replace('homadclient=http://video.golem.de/nvplayer/homadclient.json&', '');
     ele.html(figgu);
-  });
+  })
   /*var ele = $('#gvideo_14939');
   var figgu = ele.html();
   figgu = figgu.replace('abo=0', 'abo=1');
@@ -71,7 +71,6 @@ window.setTimeout(function () {
       console.log('Video wurde ersetzt mit NVBPlayer' + videoID);
       //var viddi = document.getElementById('NVBPlayer' + videoID);
       var viddi = swfobject.getObjectById('NVBPlayer' + videoID);
-      if (viddi != null)
       viddi.data = 'http://video.golem.de/nvplayer/NonverBlaster-lgc.swf';
     }
   }
