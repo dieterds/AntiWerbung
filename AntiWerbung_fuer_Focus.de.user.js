@@ -13,7 +13,11 @@ console.log('AntiWerbung fuer Focus.de startet');
 //oHomad.uif = null;
 //delete oHomad.uif;
 
-oHomad.url = "";
+window.oHomad = null;
+
+//$('#playerswffwid1_api').children("param[name='flashvars']").attr('value');
+
+/*oHomad.url = "";
 delete oHomad.adframework;
 //oHomad.uif.preroll = "";
 //oHomad.uif.url = "";
@@ -26,6 +30,7 @@ oHomad.homadglobal = "";
 
 delete oHomad.homadclient;
 delete oHomad.homadglobal;
+*/
 //delete oHomad;
 
 //var wert = $('#playerswffwid1_api').children("param[name='flashvars']").attr('value').replace(/"plugins.+\}\},/i,'');
