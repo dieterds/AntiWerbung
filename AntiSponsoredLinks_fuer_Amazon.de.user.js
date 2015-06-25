@@ -10,5 +10,6 @@
 // @version     1.0
 // @grant       none
 // ==/UserScript==
+console.log('AntiSponsoredLinks fuer Amazon.de startet');
 
 $('li.s-result-item div div div div h5.s-sponsored-list-header').parentsUntil('#s-results-list-atf').remove();
