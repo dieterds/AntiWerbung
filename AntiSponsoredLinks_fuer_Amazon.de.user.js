@@ -1,9 +1,12 @@
 // ==UserScript==
 // @name        AntiSponsoredLinks fuer Amazon.de
-// @description Entfernt die Sponsored-Links aus den Suchergebnissen von Amazon.de.
 // @namespace   amazon.de
+// @description Entfernt die Sponsored-Links aus den Suchergebnissen von Amazon.de.
 // @include     http://www.amazon.de/s/*
 // @require     http://code.jquery.com/jquery-1.11.2.min.js
+// @downloadURL https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiSponsoredLinks_fuer_Amazon.de.user.js
+// @updateURL   https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiSponsoredLinks_fuer_Amazon.de.user.js
+// @icon        https://raw.githubusercontent.com/dieterds/AntiWerbung/master/antiicon-48.png
 // @version     1.0
 // @grant       none
 // ==/UserScript==
