@@ -5,6 +5,7 @@
 // @include     http://www.n24.de/n24/Mediathek/videos/*
 // @downloadURL https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiWerbung_fuer_N24_Mediathek.user.js
 // @updateURL   https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiWerbung_fuer_N24_Mediathek.user.js
+// @icon        https://raw.githubusercontent.com/dieterds/AntiWerbung/master/antiicon-48.png
 // @version     1.0
 // @grant       none
 // ==/UserScript==

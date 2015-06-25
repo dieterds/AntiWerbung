@@ -6,6 +6,7 @@
 // @include     http://*.golem.de/*
 // @downloadURL https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiWerbung_fuer_Golem.de.user.js
 // @updateURL   https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiWerbung_fuer_Golem.de.user.js
+// @icon        https://raw.githubusercontent.com/dieterds/AntiWerbung/master/antiicon-48.png
 // @version     1.4
 // @grant       none
 // ==/UserScript==

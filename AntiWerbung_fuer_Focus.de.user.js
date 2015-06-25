@@ -5,6 +5,7 @@
 // @include     http://www.focus.de/*/videos/*
 // @downloadURL https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiWerbung_fuer_FocusTV.user.js
 // @updateURL   https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiWerbung_fuer_FocusTV.user.js
+// @icon        https://raw.githubusercontent.com/dieterds/AntiWerbung/master/antiicon-48.png
 // @version     1.0
 // @grant       none
 // ==/UserScript==

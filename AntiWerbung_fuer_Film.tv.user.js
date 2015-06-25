@@ -5,6 +5,7 @@
 // @include     https://www.film.tv/film/*/trailer/*.html
 // @downloadURL https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiWerbung_fuer_Film.tv.user.js
 // @updateURL   https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiWerbung_fuer_Film.tv.user.js
+// @icon        https://raw.githubusercontent.com/dieterds/AntiWerbung/master/antiicon-48.png
 // @version     1.0
 // @grant       none
 // ==/UserScript==

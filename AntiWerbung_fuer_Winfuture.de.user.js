@@ -6,6 +6,7 @@
 // @include     http://winfuture.de/videos/*
 // @downloadURL https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiWerbung_fuer_Winfuture.de.user.js
 // @updateURL   https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiWerbung_fuer_Winfuture.de.user.js
+// @icon        https://raw.githubusercontent.com/dieterds/AntiWerbung/master/antiicon-48.png
 // @version     1.1
 // @grant       none
 // ==/UserScript==

@@ -5,6 +5,7 @@
 // @include     http://www.shortnews.de/id/*
 // @downloadURL http://pastebin.com/raw.php?i=3rha4Byq
 // @updateURL   http://pastebin.com/raw.php?i=3rha4Byq
+// @icon        https://raw.githubusercontent.com/dieterds/AntiWerbung/master/antiicon-48.png
 // @version     1.1
 // @grant       none
 // ==/UserScript==#
