@@ -12,4 +12,15 @@
 // ==/UserScript==
 console.log('AntiSponsoredLinks fuer Amazon.de startet');
 
-$('li.s-result-item div div div div h5.s-sponsored-list-header').parentsUntil('#s-results-list-atf').remove();
+window.setInterval(function () {
+  if ($('li.s-result-item div div div div h5.s-sponsored-list-header').parentsUntil('#s-results-list-atf').length)
+  {
+    //console.log('Removed!');
+    $('li.s-result-item div div div div h5.s-sponsored-list-header').parentsUntil('#s-results-list-atf').remove();
+  } 
+  else
+  {
+    //console.log('Timer disabled!');
+    clearInterval(this);
+  }
+}, 2000);
