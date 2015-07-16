@@ -18,7 +18,7 @@ window.setTimeout(function ()
     delete window[UnwantedVar];
     //console.log(UnwantedVar);
   }
-}, 500);
+}, 100);
 /*$(document).ready(function ()
 {
   console.log('AntiWerbung fuer Webfail startet');
