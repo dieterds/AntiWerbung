@@ -1,5 +1,5 @@
 ﻿// ==UserScript==
-// @name        Antiwerbung fuer N24 Mediathek
+// @name        AntiWerbung fuer N24 Mediathek
 // @namespace   N24
 // @description Entfernt die Videowerbung, die vor jedem Video abgespielt wird.
 // @include     http://www.n24.de/n24/Mediathek/videos/*
@@ -11,3 +11,6 @@
 // ==/UserScript==
 console.log('AntiWerbung fuer N24 Mediathek startet');
 _n24VideoCfg.adEnabled = false;
+//_n24VideoCfg.flash.autoPlay = false;
+//n24VideoAutoStart = false;
+//delete myAd;

@@ -6,6 +6,7 @@
 // @downloadURL http://pastebin.com/raw.php?i=X1UrvKcv
 // @updateURL   http://pastebin.com/raw.php?i=X1UrvKcv
 // @version     1.0
+// @icon        https://raw.githubusercontent.com/dieterds/AntiWerbung/master/antiicon-48.png
 // @grant       none
 // ==/UserScript==
 console.log('AntiAntiAdblock fuer Iphone-Tricks.de startet');

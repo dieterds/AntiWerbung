@@ -9,6 +9,7 @@
 // @version     1.0
 // @grant       none
 // ==/UserScript==
+
 console.log('AntiWerbung fuer Film.tv startet');
 
 if (jwp.config.playlist[1] != null)
