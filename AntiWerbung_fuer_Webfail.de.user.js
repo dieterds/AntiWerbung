@@ -11,7 +11,7 @@
 // ==/UserScript==
 console.log('AntiWerbung fuer Webfail startet');
 window.uabBody = 1;
-/*window.setTimeout(function ()
+window.setTimeout(function ()
 {
   for each(var UnwantedVar in 'uabInject uabBody uabDetect uabTrack uabpRnd uabPc uabpd1 uabpd2 uabpd3 uabpdl UABPdd'.split(' '))
   {
@@ -19,7 +19,7 @@ window.uabBody = 1;
     delete window[UnwantedVar];
     //console.log(UnwantedVar);
   }
-}, 100);*/
+}, 100);
 /*$(document).ready(function ()
 {
   console.log('AntiWerbung fuer Webfail startet');
