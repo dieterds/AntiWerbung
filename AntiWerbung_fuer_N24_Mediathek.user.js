@@ -1,4 +1,4 @@
-﻿// ==UserScript==
+// ==UserScript==
 // @name        AntiWerbung fuer N24 Mediathek
 // @namespace   N24
 // @description Entfernt die Videowerbung, die vor jedem Video abgespielt wird.

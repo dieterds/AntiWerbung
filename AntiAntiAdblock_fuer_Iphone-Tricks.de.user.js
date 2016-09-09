@@ -1,4 +1,4 @@
-﻿// ==UserScript==
+// ==UserScript==
 // @name        AntiAntiAdblock fuer Iphone-Tricks.de
 // @namespace   IT
 // @description Entfernt die AntiAdblock Meldung und macht den Artikel wieder sichtbar bei Iphone-Tricks.de

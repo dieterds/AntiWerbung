@@ -1,4 +1,4 @@
-﻿// ==UserScript==
+// ==UserScript==
 // @name        AntiRedirector
 // @namespace   MA
 // @description Entfernt Redirector bei shortnews.de
@@ -16,24 +16,24 @@ var strLocation = window.location.href;
 window.setTimeout(shortnews, 500);
 function shortnews()
 {
-  if (strLocation.match(/www.shortnews.de\/id\//))
-  {
-    each(document.getElementsByTagName('a'), function (a)
+    if (strLocation.match(/www.shortnews.de\/id\//))
     {
-      //console.log('linqq gefunden: ' + a.href);
-      if (a.href.match(/.+?link=(.+)/))
-      {
-        var newlink = unescape(RegExp.$1);
-        console.log(newlink);
-        a.href = newlink;
-      }
-    });
-  }
+        each(document.getElementsByTagName('a'), function (a)
+             {
+            //console.log('linqq gefunden: ' + a.href);
+            if (a.href.match(/.+?link=(.+)/))
+            {
+                var newlink = unescape(RegExp.$1);
+                console.log(newlink);
+                a.href = newlink;
+            }
+        });
+    }
 }
 function each(ar, cb)
 {
-  for (var i = 0; i < ar.length; i++)
-  {
-    cb(ar[i]);
-  }
+    for (var i = 0; i < ar.length; i++)
+    {
+        cb(ar[i]);
+    }
 }

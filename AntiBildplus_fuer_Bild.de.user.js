@@ -6,7 +6,7 @@
 // @require     http://code.jquery.com/jquery-1.11.2.min.js
 // run-at document-start
 // @icon        https://raw.githubusercontent.com/dieterds/AntiWerbung/master/antiicon-48.png
-// @version     1.0
+// @version     1.1
 // @grant       none
 // ==/UserScript==
 /*window.setInterval(function () {
@@ -16,3 +16,5 @@
 }, 500);*/
 $('.bplus, .variant').remove();
 $('#logo').remove();
+$('a[href*="bild-plus"]').remove();
+$('img[src*="gewinnspiel"]').remove();
