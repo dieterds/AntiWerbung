@@ -28,7 +28,21 @@ function shortnews()
                 a.href = newlink;
             }
         });
+
+        each(document.getElementsByTagName('a'), function (a)
+             {
+            if (a.href === "") return;
+            console.log('linqq gefunden: ' + a.href);
+            if (a.href.match(/.+?ext=(.+)/))
+            {
+                var newlink = unescape(RegExp.$1);
+                console.log(newlink);
+                a.href = newlink;
+            }
+        });
     }
+
+    //http://www.shortnews.de/goto.cfm?ext=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dq7OGZpVbI6I
 }
 function each(ar, cb)
 {
