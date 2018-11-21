@@ -5,7 +5,7 @@
 // @include     http://www.amazon.de/s/*
 // @include     https://www.amazon.de/s/*
 // @include     https://www.amazon.de/gp/search*
-// @require     http://code.jquery.com/jquery-1.11.2.min.js
+// @require     https://code.jquery.com/jquery-3.3.1.js
 // @downloadURL https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiSponsoredLinks_fuer_Amazon.de.user.js
 // @updateURL   https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiSponsoredLinks_fuer_Amazon.de.user.js
 // @icon        https://raw.githubusercontent.com/dieterds/AntiWerbung/master/antiicon-48.png

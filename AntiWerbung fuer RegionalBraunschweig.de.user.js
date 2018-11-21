@@ -2,7 +2,7 @@
 // @name         AntiWerbung fuer RegionalBraunschweig.de
 // @namespace    RegionalBraunschweig
 // @version      1.0
-// @require      http://code.jquery.com/jquery-1.11.2.min.js
+// @require      https://code.jquery.com/jquery-3.3.1.js
 // @description  Entfernt die Anzeigen von RegionalBraunschweig.de
 // @author       You
 // @match        http://regionalbraunschweig.de/*
