@@ -4,6 +4,7 @@
 // @description Entfernt die Sponsored-Links aus den Suchergebnissen von Amazon.de.
 // @include     http://www.amazon.de/s/*
 // @include     https://www.amazon.de/s/*
+// @include     https://www.amazon.de/gp/search*
 // @require     http://code.jquery.com/jquery-1.11.2.min.js
 // @downloadURL https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiSponsoredLinks_fuer_Amazon.de.user.js
 // @updateURL   https://raw.githubusercontent.com/dieterds/AntiWerbung/master/AntiSponsoredLinks_fuer_Amazon.de.user.js

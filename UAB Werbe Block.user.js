@@ -1,6 +1,5 @@
 // ==UserScript==
 // @name        UAB Werbe Block
-// @name        AntiWerbung fuer Braunschweiger-Zeitung
 // @namespace   UAB
 // @description Entfernt die Werbung, jedes mal dynamisch neu erzeugt wird.
 // @include     https://www.braunschweiger-zeitung.de/*
