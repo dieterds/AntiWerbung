@@ -14,7 +14,7 @@ console.log('AntiWerbung fuer UAB startet');
 // window.uabBody = 1;
 // window.FuckAdBlock = function(){console.log('fuckad');};
 
-Object.getOwnPropertyNames(window).forEach(function(UnwantedVar, idx, array) {
+Object.keys(window).forEach(function(UnwantedVar, idx, array) {
         if (UnwantedVar.startsWith('uab')) {
             console.log(UnwantedVar + ' deleted');
             window[UnwantedVar] = null;

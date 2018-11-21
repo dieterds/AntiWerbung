@@ -12,3 +12,5 @@
 console.log('AntiWerbung fuer RegionalBraunschweig.de startet');
 $('#anzeigebox').parent().hide();
 $('.anzeige').parent().parent().parent().remove();
+
+$('.anzeige-title').parent().parent().parent().parent().remove();
