@@ -26,7 +26,7 @@ console.log('AntiWerbung fuer Winfuture.de startet');
 unsafeWindow.wfv4_disable_cookie_notice = 1;
 
 // Easy Way
-// unsafeWindow.wfv4_token_cookie_name = function(){console.log('wfv4_token_cookie_name');};
+unsafeWindow.wfv4_token_cookie_name = function(){console.log('wfv4_token_cookie_name');};
 // return;
 
 // Hacker Way
@@ -35,7 +35,7 @@ $(document).ready(function(){
     console.log(scripti);
     if (scripti)
     {
-//         scripti = scripti.replace(/'https:\/\/rdir\.winfuture\.de\/video\/.+?vast\/.+?'/ig, null);
+        //         scripti = scripti.replace(/'https:\/\/rdir\.winfuture\.de\/video\/.+?vast\/.+?'/ig, null);
         scripti = scripti.replace(/'https:\/\/rdir\.winfuture\.de\/video\/.+?vast\/.+?'/ig, 0);
         console.log(scripti);
         //$('script:contains("wfv4_flowplayer_init")').html(scripti);
